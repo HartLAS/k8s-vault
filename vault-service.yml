@@ -13,17 +13,3 @@ spec:
       protocol: TCP
       port: 8200
       nodePort: 30030
-    - name: ldap
-      protocol: TCP
-      port: 389
-      nodePort: 30031
-    - name: ssl-ldap
-      protocol: TCP
-      port: 636
-      nodePort: 30032
-    - name: mongo-sandbox
-      port: 28018
-      nodePort: 30033
-    - name: mongo-plugin
-      port: 27017
-      nodePort: 30034
